@@ -10,7 +10,7 @@ spring:
       ddl-auto: create-drop
 
   application:
-    name: STATUS-DEV
+    name: STATUS-LOCAL
 
 custom:
-  value: DEV
+  value: LOCAL
