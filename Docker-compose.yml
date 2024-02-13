@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  external-env:
+    image: thsqudwn05/external-env:latest
+    container_name: external-env
+    working_dir: /app
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./external-dev.env
