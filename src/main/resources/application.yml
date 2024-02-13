@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles:
+    active: prod
+
+---
+# 가장 마지막 profiles가 default profile로 설정
+spring:
+  profiles:
+    active: local
